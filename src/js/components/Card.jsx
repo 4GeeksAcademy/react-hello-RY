@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = (props) => {
     return (
-        <div className="card" style={{ width: '18rem' }}>
+        <div className="card gx-0" style={{ width: '18rem' }}>
             <img src={props.imageUrl} alt={props.title} className="card-img-top w-full h-40 object-cover" />
 
             <div className="card-body d-flex flex-column">
